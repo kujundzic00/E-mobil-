@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman",sans-serif;
+
+}
+body{
+    background: url("pozadina.jpg");
+    background-size: cover;
+
+}
+@media only screen and (max-width: 300px)and (min-width: 100px) {
+    body {
+        background-color: lightblue;
+    }
+    .container{
+        margin-left: 200px;
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 400px){
+
+    body {
+        background-color: orange;
+    }
+    .container{
+        margin-left: 200px;
+        font-size: 34px;
+    }
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("pozadina.png");
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 6em;
+    color:#fff;
+
+}
+.banner .content p{
+    font-size: 1em;
+    color:#fff;
+}

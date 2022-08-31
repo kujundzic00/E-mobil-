@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman",sans-serif;
+    font-size: 24px;
+    color: #f00;
+
+}
+body{
+    background: url("siyuan-g_V2rt6iG7A-unsplash.jpg");
+    background-size: cover;
+
+}
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("siyuan-g_V2rt6iG7A-unsplash.jpg");
+    background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 6em;
+    color:#fff;
+
+}
+.banner .content p{
+    font-size: 1em;
+    color:#fff;
+}
